@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SiriVann Farms | Premium Organic Oyster Mushrooms</title>
+    
+    <script>
+        if (window.location.protocol !== 'file:' && 
+            window.location.hostname !== 'sirivannfarms.in' && 
+            window.location.hostname !== 'www.sirivannfarms.in' && 
+            window.location.hostname !== 'localhost') {
+            window.location.replace("https://sirivannfarms.in" + window.location.pathname + window.location.search + window.location.hash);
+        }
+    </script>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <style>
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background-color: #FAF6F0; 
+        }
+        .font-flowy {
+            font-family: 'Playfair Display', serif;
+        }
+
+        /* Fixed container layout */
+        .hero-container {
+            position: relative;
+            overflow: hidden;
+        }
+
+        /* Pure HTML element styling to override browser file blockades */
+        .zoom-bg-img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: 0;
+            transform: scale(1);
+            animation: subtleZoom 20s ease-out infinite alternate;
+        }
+
+        @keyframes subtleZoom {
+            0% {
+                transform: scale(1);
+            }
+            100% {
+                transform: scale(1.08);
+            }
+        }
+    </style>
+</head>
+<body class="text-[#5A4028]">
+
+    <nav class="bg-[#FAF6F0]/90 backdrop-blur-md sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto px-6 py-5 flex justify-between items-center">
+            <div class="flex flex-col">
+                <span class="text-2xl font-semibold tracking-wide font-flowy text-[#1E4631] italic">SiriVann Farms</span>
+                <span class="text-[10px] text-[#C2A687] tracking-[0.2em] font-bold uppercase">Tender Earth Mushrooms</span>
+            </div>
+            <div class="space-x-8 hidden md:flex font-medium text-sm text-[#5A4028]/80">
+                <a href="#about" class="hover:text-[#1E4631] transition duration-300">Our Harvest</a>
+                <a href="#benefits" class="hover:text-[#1E4631] transition duration-300">Health Benefits</a>
+                <a href="#future" class="hover:text-[#1E4631] transition duration-300">Future Varieties</a>
+                <a href="#contact" class="hover:text-[#1E4631] transition duration-300">Contact Us</a>
+            </div>
+            <a href="#contact" class="border border-[#1E4631] text-[#1E4631] hover:bg-[#1E4631] hover:text-[#FAF6F0] text-xs uppercase tracking-widest font-semibold py-2.5 px-6 transition duration-300">
+                Order Today
+            </a>
+        </div>
+    </nav>
+
+    <header class="hero-container min-h-[90vh] flex items-center justify-center text-center text-white px-6">
+        <img src="website_background_image.jpg" alt="Oyster Mushrooms background" class="zoom-bg-img">
+        
+        <div class="absolute top-0 left-0 w-100 h-full bg-gradient-to-b from-black/65 via-black/55 to-[#1E4631]/75 w-full z-10"></div>
+        
+        <div class="max-w-3xl py-12 relative z-20">
+            <span class="text-[#C2A687] text-xs uppercase tracking-[0.3em] font-semibold block mb-4 italic">
+                ~ Grown by Nature, Harvested with Care ~
+            </span>
+            <h1 class="text-3xl md:text-5xl font-flowy font-normal mb-6 leading-tight text-[#FAF6F0]">
+                 <span class="italic text-[#C2A687]">100% Organic Tender Earth Oyster Mushrooms</span>
+            </h1>
+            <p class="text-base md:text-lg text-gray-200/90 mb-10 max-w-xl mx-auto font-light leading-relaxed">
+                Nurtured gently on our sustainable farm. Bringing the raw, untamed essence of pure earthy flavors directly to your kitchen.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center items-center gap-6">
+                <a href="#about" class="text-[#FAF6F0] border-b border-[#FAF8F5] pb-1 hover:text-[#C2A687] hover:border-[#C2A687] transition duration-300 font-flowy italic text-lg">
+                    Explore the Harvest
+                </a>
+                <span class="hidden sm:inline text-[#C2A687]">•</span>
+                <a href="#contact" class="text-[#FAF6F0] border-b border-[#FAF8F5] pb-1 hover:text-[#C2A687] hover:border-[#C2A687] transition duration-300 font-flowy italic text-lg">
+                    Get in Touch
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <section id="about" class="py-28 max-w-6xl mx-auto px-6">
+        <div class="grid md:grid-cols-2 gap-16 items-center">
+            
+            <div class="space-y-6">
+                <div class="space-y-1">
+                    <span class="text-xs uppercase tracking-[0.2em] text-[#C2A687] font-bold block">Our Signature Yield</span>
+                    <h2 class="text-4xl font-normal font-flowy text-[#1E4631]">Fresh Gourmet <span class="italic">Oyster Mushrooms</span></h2>
+                </div>
+                
+                <p class="text-gray-600 font-light leading-relaxed text-base">
+                    At SiriVann Farms, we align our cultivation practices with the natural rhythms of the earth. Our premium Oyster mushrooms grow entirely free of synthetic interventions, allowing them to naturally absorb nutrients and form an exquisite, rich umami flavor and tender texture.
+                </p>
+                <p class="text-gray-600 font-light leading-relaxed text-base">
+                    Whether sautéed lightly with herbs, added to rustic soups, or featured as a nutrient-rich centerpiece, they provide an uncompromised culinary experience.
+                </p>
+                
+                <div class="pt-6 space-y-4 border-t border-[#C2A687]/30">
+                    <div class="flex items-start space-x-3">
+                        <span class="text-[#C2A687] font-serif italic text-lg">~</span>
+                        <p class="text-sm text-gray-700 font-medium">Zero Synthetic Pesticides, Fertilizers, or Chemicals</p>
+                    </div>
+                    <div class="flex items-start space-x-3">
+                        <span class="text-[#C2A687] font-serif italic text-lg">~</span>
+                        <p class="text-sm text-gray-700 font-medium">Harvested at Dawn Daily for Peak Freshness</p>
+                    </div>
+                    <div class="flex items-start space-x-3">
+                        <span class="text-[#C2A687] font-serif italic text-lg">~</span>
+                        <p class="text-sm text-gray-700 font-medium">Delivered in Clean, Biodegradable Eco-Punnets</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="overflow-hidden aspect-square">
+                <img src="https://images.unsplash.com/photo-1628543102005-90b17562de34?auto=format&fit=crop&w=800&q=80" alt="Fresh Oyster Mushrooms" class="w-full h-full object-cover filter grayscale-[15%] hover:grayscale-0 transition duration-700">
+            </div>
+        </div>
+    </section>
+
+    <section id="benefits" class="py-24 bg-[#F2ECE4] text-[#5A4028] px-6">
+        <div class="max-w-5xl mx-auto">
+            <div class="text-center max-w-2xl mx-auto mb-16 space-y-2">
+                <span class="text-xs uppercase tracking-[0.2em] text-[#C2A687] font-bold block">Nourishment from the Earth</span>
+                <h2 class="text-4xl font-normal font-flowy text-[#1E4631]">Why <span class="italic">Organic</span> Matters</h2>
+                <p class="text-gray-600 font-light text-sm">Mushrooms are incredibly porous; they absorb everything they grow on. That is why 100% chemical-free cultivation is vital for your health.</p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-12 text-center md:text-left">
+                <div class="space-y-3">
+                    <span class="text-[#1E4631] text-2xl block md:inline font-serif font-semibold italic">01.</span>
+                    <h3 class="text-xl font-flowy text-[#1E4631] font-medium">Immune Powerhouse</h3>
+                    <p class="text-gray-600 font-light text-sm leading-relaxed">
+                        Oyster mushrooms are rich in beta-glucans—natural structural fibers that act as deep cellular modulators to fortify your body's immune defenses.
+                    </p>
+                </div>
+                <div class="space-y-3">
+                    <span class="text-[#1E4631] text-2xl block md:inline font-serif font-semibold italic">02.</span>
+                    <h3 class="text-xl font-flowy text-[#1E4631] font-medium">Cardiovascular Wellness</h3>
+                    <p class="text-gray-600 font-light text-sm leading-relaxed">
+                        They naturally contain compounds that help manage healthy cholesterol profiles and support optimal blood vessel function over time.
+                    </p>
+                </div>
+                <div class="space-y-3">
+                    <span class="text-[#1E4631] text-2xl block md:inline font-serif font-semibold italic">03.</span>
+                    <h3 class="text-xl font-flowy text-[#1E4631] font-medium">Purely Toxic-Free</h3>
+                    <p class="text-gray-600 font-light text-sm leading-relaxed">
+                        By avoiding chemical substrates, our mushrooms carry zero traces of heavy metals or harmful synthetic agricultural runoff.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="future" class="bg-[#1E4631] text-[#FAF6F0] py-24 px-6 text-center">
+        <div class="max-w-3xl mx-auto space-y-4">
+            <span class="text-xs font-semibold uppercase tracking-[0.25em] text-[#C2A687]">Tender Earth Expansion</span>
+            <h2 class="text-3xl md:text-4xl font-flowy font-normal">Sowing Seeds for <span class="italic">Future Varieties</span></h2>
+            <p class="text-[#FAF8F5]/75 max-w-2xl mx-auto font-light text-base leading-relaxed pt-2">
+                While our pristine **Oyster mushrooms** anchor our daily harvest, we are quietly preparing our logs and dark-rooms for an expansive menu of clean, medicinal, and culinary exotic fungi. Stay connected with SiriVannFarms.in to watch our varieties sprout.
+            </p>
+        </div>
+    </section>
+
+    <section id="contact" class="py-28 max-w-3xl mx-auto px-6">
+        <div class="text-center mb-16">
+            <span class="text-xs uppercase tracking-[0.2em] text-[#C2A687] font-bold block mb-1">Inquiries</span>
+            <h2 class="text-4xl font-normal font-flowy text-[#1E4631]">Connect with <span class="italic">SiriVann Farms</span></h2>
+            <p class="text-gray-500 font-light text-sm mt-2">All fields are required. Your submission immediately routes to our farm registry.</p>
+        </div>
+        
+        <form action="https://formspree.io/f/sumathi.chandrashekar@gmail.com" method="POST" class="space-y-8">
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="border-b border-[#C2A687]/50 pb-2 focus-within:border-[#1E4631] transition duration-300">
+                    <label class="block text-[11px] font-bold uppercase tracking-wider text-[#5A4028]/60 mb-1">Your Name *</label>
+                    <input type="text" name="name" required class="w-full bg-transparent focus:outline-none text-sm py-1 text-[#5A4028]">
+                </div>
+                <div class="border-b border-[#C2A687]/50 pb-2 focus-within:border-[#1E4631] transition duration-300">
+                    <label class="block text-[11px] font-bold uppercase tracking-wider text-[#5A4028]/60 mb-1">Phone Number *</label>
+                    <input type="tel" name="phone" required placeholder="E.g., +91 XXXXX XXXXX" class="w-full bg-transparent focus:outline-none text-sm py-1 text-[#5A4028] placeholder-gray-300 text-sm">
+                </div>
+                <div class="border-b border-[#C2A687]/50 pb-2 focus-within:border-[#1E4631] transition duration-300">
+                    <label class="block text-[11px] font-bold uppercase tracking-wider text-[#5A4028]/60 mb-1">Email Address *</label>
+                    <input type="email" name="email" required class="w-full bg-transparent focus:outline-none text-sm py-1 text-[#5A4028]">
+                </div>
+            </div>
+            <div class="border-b border-[#C2A687]/50 pb-2 focus-within:border-[#1E4631] transition duration-300">
+                <label class="block text-[11px] font-bold uppercase tracking-wider text-[#5A4028]/60 mb-1">Requirement & Delivery Details *</label>
+                <textarea name="message" rows="3" placeholder="Tell us about your requirements..." required class="w-full bg-transparent focus:outline-none text-sm py-1 text-[#5A4028] placeholder-gray-400/70"></textarea>
+            </div>
+            
+            <div class="text-center pt-4">
+                <button type="submit" class="bg-[#1E4631] hover:bg-[#5A4028] text-[#FAF6F0] font-flowy italic tracking-wide px-10 py-3.5 transition duration-300 shadow-sm text-base">
+                    Send Message
+                </button>
+            </div>
+        </form>
+    </section>
+
+    <footer class="bg-[#5A4028] text-[#FAF6F0]/60 py-14 px-6 text-xs tracking-wider border-t border-[#C2A687]/20">
+        <div class="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
+            <div class="text-center md:text-left space-y-1">
+                <p class="font-normal text-[#FAF6F0] text-xl font-flowy italic">SiriVann Farms</p>
+                <p class="text-[10px] text-[#C2A687] tracking-widest font-semibold">WWW.SIRIVANNFARMS.IN</p>
+            </div>
+            <p class="text-[11px] font-light text-center md:text-right">© 2026 SiriVann Farms. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
